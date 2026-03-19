@@ -1,6 +1,6 @@
 # {{ cookiecutter.project_name }}
 
-Serverless API using Python {{ cookiecutter.runtime }} with API Gateway and Lambda.
+Serverless API using Python 3.12 with API Gateway and Lambda.
 
 ## Build & Deploy
 
