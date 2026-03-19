@@ -25,6 +25,8 @@ echo "Java:       $(java --version 2>&1 | head -1 || echo 'NOT INSTALLED')"
 echo "Maven:      $(mvn --version 2>&1 | head -1 || echo 'NOT INSTALLED')"
 echo "Docker:     $(docker --version 2>&1 || echo 'NOT INSTALLED')"
 echo "Git:        $(git --version 2>&1 || echo 'NOT INSTALLED')"
+echo "VS Code:    $(code --version 2>&1 | head -1 || echo 'NOT INSTALLED')"
+echo "Kiro:       $(kiro --version 2>&1 | head -1 || echo 'NOT INSTALLED')"
 
 echo ""
 echo "=== Done ==="

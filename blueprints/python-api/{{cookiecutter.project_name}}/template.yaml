@@ -8,9 +8,9 @@ Globals:
   Function:
     Timeout: 10
     MemorySize: 128
-    Runtime: "{{ cookiecutter.runtime }}"
+    Runtime: {{ cookiecutter.runtime }}
     Architectures:
-      - "{{ cookiecutter.architectures }}"
+      - {{ cookiecutter.architectures }}
     Tracing: Active
     Environment:
       Variables:

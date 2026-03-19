@@ -15,6 +15,8 @@
     { "slug": "java", "label": { "en": "Java", "th": "Java" } },
     { "slug": "docker", "label": { "en": "Docker", "th": "Docker" } },
     { "slug": "git", "label": { "en": "Git", "th": "Git" } },
+    { "slug": "vscode", "label": { "en": "VS Code", "th": "VS Code" } },
+    { "slug": "kiro", "label": { "en": "Kiro IDE", "th": "Kiro IDE" } },
     { "slug": "verify", "label": { "en": "Verify Setup", "th": "ตรวจสอบการติดตั้ง" } },
     { "slug": "blueprints", "label": { "en": "Serverless Blueprints", "th": "Serverless Blueprints" } },
     { "slug": "blueprint-python", "label": { "en": "↳ Lambda Python", "th": "↳ Lambda Python" } },
