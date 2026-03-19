@@ -31,7 +31,11 @@ Create a new project from GitHub:
 <!--/-->
 
 ```bash
-sam init --location gh:YOUR-ORG/serverless-guide --directory blueprints/python-api
+# Clone the repo (one time)
+git clone https://github.com/final000/aws-serverless-guide.git
+
+# Create project from blueprint
+sam init --location aws-serverless-guide/blueprints/python-api
 ```
 
 <!--en-->
@@ -54,8 +58,7 @@ sam deploy --guided
 
 ```bash
 sam init \
-  --location gh:YOUR-ORG/serverless-guide \
-  --directory blueprints/python-api \
+  --location aws-serverless-guide/blueprints/python-api \
   --extra-context '{"project_name":"my-api","runtime":"python3.12","architectures":"x86_64"}' \
   --no-input
 ```
