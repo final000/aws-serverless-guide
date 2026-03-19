@@ -8,9 +8,9 @@ Globals:
   Function:
     Timeout: 10
     MemorySize: 128
-    Runtime: {{ cookiecutter.runtime }}
+    Runtime: python3.12
     Architectures:
-      - {{ cookiecutter.architectures }}
+      - x86_64
     Tracing: Active
     Environment:
       Variables:
