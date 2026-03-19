@@ -1,0 +1,23 @@
+{
+  "title": {
+    "en": "Serverless on AWS: Tool Installation Guide",
+    "th": "Serverless บน AWS: คู่มือติดตั้งเครื่องมือ"
+  },
+  "languages": ["en", "th"],
+  "defaultLanguage": "en",
+  "navigation": [
+    { "slug": "index", "label": { "en": "Home", "th": "หน้าแรก" } },
+    { "slug": "aws-cli", "label": { "en": "AWS CLI", "th": "AWS CLI" } },
+    { "slug": "aws-sso", "label": { "en": "AWS SSO for CLI", "th": "AWS SSO สำหรับ CLI" } },
+    { "slug": "sam-cli", "label": { "en": "SAM CLI", "th": "SAM CLI" } },
+    { "slug": "nodejs", "label": { "en": "Node.js", "th": "Node.js" } },
+    { "slug": "python", "label": { "en": "Python", "th": "Python" } },
+    { "slug": "docker", "label": { "en": "Docker", "th": "Docker" } },
+    { "slug": "git", "label": { "en": "Git", "th": "Git" } },
+    { "slug": "verify", "label": { "en": "Verify Setup", "th": "ตรวจสอบการติดตั้ง" } },
+    { "slug": "blueprints", "label": { "en": "Serverless Blueprints", "th": "Serverless Blueprints" } },
+    { "slug": "blueprint-python", "label": { "en": "↳ Lambda Python", "th": "↳ Lambda Python" } },
+    { "slug": "blueprint-nodejs", "label": { "en": "↳ Lambda Node.js", "th": "↳ Lambda Node.js" } },
+    { "slug": "blueprint-java", "label": { "en": "↳ Lambda Java", "th": "↳ Lambda Java" } }
+  ]
+}

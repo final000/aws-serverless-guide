@@ -1,0 +1,15 @@
+{
+  "name": "serverless-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site generator for serverless tool installation guide",
+  "scripts": {
+    "build": "node build.js",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "marked": "^15.0.0",
+    "marked-highlight": "^2.2.0",
+    "highlight.js": "^11.11.0"
+  }
+}

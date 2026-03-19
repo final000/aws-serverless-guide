@@ -1,0 +1,5 @@
+{
+  "project_name": "sam-python-api",
+  "runtime": "python3.12",
+  "architectures": "x86_64"
+}
