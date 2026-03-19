@@ -127,6 +127,14 @@ for (const page of config.navigation) {
   const mdContent = fs.readFileSync(mdPath, 'utf-8');
   const langHtml = parseMultiLang(mdContent);
 
+  // Make external links open in new tab
+  for (const lang of languages) {
+    langHtml[lang] = langHtml[lang].replace(
+      /<a href="(https?:\/\/[^"]+)"/g,
+      '<a href="$1" target="_blank" rel="noopener noreferrer"'
+    );
+  }
+
   const wrappedContent = languages.map(lang =>
     `<div class="lang-content" data-lang="${lang}">${langHtml[lang]}</div>`
   ).join('\n');
@@ -134,10 +142,10 @@ for (const page of config.navigation) {
   const nav = buildNav(page.slug);
 
   const html = template
-    .replace('{{SITE_TITLE_EN}}', config.title.en)
-    .replace('{{SITE_TITLE_TH}}', config.title.th)
-    .replace('{{PAGE_TITLE_EN}}', page.label.en)
-    .replace('{{PAGE_TITLE_TH}}', page.label.th)
+    .replaceAll('{{SITE_TITLE_EN}}', config.title.en)
+    .replaceAll('{{SITE_TITLE_TH}}', config.title.th)
+    .replaceAll('{{PAGE_TITLE_EN}}', page.label.en)
+    .replaceAll('{{PAGE_TITLE_TH}}', page.label.th)
     .replace('{{NAVIGATION}}', nav)
     .replace('{{CONTENT}}', wrappedContent);
 

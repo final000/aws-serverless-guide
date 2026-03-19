@@ -12,6 +12,7 @@
     { "slug": "sam-cli", "label": { "en": "SAM CLI", "th": "SAM CLI" } },
     { "slug": "nodejs", "label": { "en": "Node.js", "th": "Node.js" } },
     { "slug": "python", "label": { "en": "Python", "th": "Python" } },
+    { "slug": "java", "label": { "en": "Java", "th": "Java" } },
     { "slug": "docker", "label": { "en": "Docker", "th": "Docker" } },
     { "slug": "git", "label": { "en": "Git", "th": "Git" } },
     { "slug": "verify", "label": { "en": "Verify Setup", "th": "ตรวจสอบการติดตั้ง" } },

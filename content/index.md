@@ -32,6 +32,7 @@ Welcome to the setup guide for building serverless applications on AWS. Follow t
 | AWS SAM CLI | Build, test, and deploy serverless applications |
 | Node.js | Runtime for Lambda functions and build tools |
 | Python | Runtime for Lambda functions and SAM CLI dependency |
+| Java | Runtime for Lambda functions (Amazon Corretto 21) |
 | Docker | Local testing and debugging with SAM CLI |
 | Git | Version control for your projects |
 
@@ -54,6 +55,7 @@ Use the navigation on the left to work through each tool installation. Each page
 | AWS SAM CLI | สร้าง ทดสอบ และ deploy แอปพลิเคชัน serverless |
 | Node.js | Runtime สำหรับ Lambda functions และ build tools |
 | Python | Runtime สำหรับ Lambda functions และ dependency ของ SAM CLI |
+| Java | Runtime สำหรับ Lambda functions (Amazon Corretto 21) |
 | Docker | ทดสอบและ debug แบบ local ด้วย SAM CLI |
 | Git | ระบบควบคุมเวอร์ชันสำหรับโปรเจกต์ |
 

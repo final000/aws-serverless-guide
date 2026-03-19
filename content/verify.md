@@ -21,6 +21,8 @@ echo "SAM CLI:    $(sam --version 2>&1 || echo 'NOT INSTALLED')"
 echo "Node.js:    $(node --version 2>&1 || echo 'NOT INSTALLED')"
 echo "npm:        $(npm --version 2>&1 || echo 'NOT INSTALLED')"
 echo "Python:     $(python3 --version 2>&1 || echo 'NOT INSTALLED')"
+echo "Java:       $(java --version 2>&1 | head -1 || echo 'NOT INSTALLED')"
+echo "Maven:      $(mvn --version 2>&1 | head -1 || echo 'NOT INSTALLED')"
 echo "Docker:     $(docker --version 2>&1 || echo 'NOT INSTALLED')"
 echo "Git:        $(git --version 2>&1 || echo 'NOT INSTALLED')"
 
