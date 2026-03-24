@@ -86,6 +86,9 @@ After installing VS Code, install these extensions for AWS serverless developmen
 # AWS Toolkit — SAM deploy, Lambda invoke, CloudWatch logs
 code --install-extension amazonwebservices.aws-toolkit-vscode
 
+# Amazon Q — AI coding assistant
+code --install-extension amazonwebservices.amazon-q-vscode
+
 # Python
 code --install-extension ms-python.python
 
@@ -98,6 +101,48 @@ code --install-extension redhat.vscode-yaml
 # Docker
 code --install-extension ms-azuretools.vscode-docker
 ```
+
+<!--en-->
+## Amazon Q — AI Coding Assistant
+
+Amazon Q Developer is a free AI assistant for VS Code that helps with code generation, debugging, and AWS development.
+
+**Install:**
+1. Install the extension: search "Amazon Q" in the Extensions panel or run the command above
+2. Click the Amazon Q icon in the sidebar
+3. Sign in with your AWS Builder ID (free) at [community.aws/builderid](https://community.aws/builderid) or use IAM Identity Center
+
+**What you can do:**
+- **Chat** (`Ctrl+Shift+Q` / `Cmd+Shift+Q`) — Ask questions about your code, AWS services, or get help writing SAM templates
+- **Inline suggestions** — Amazon Q suggests code as you type, press `Tab` to accept
+- **Code transform** — Upgrade Java versions or modernize code automatically
+- **/dev** — Describe a feature in chat and Amazon Q generates a full implementation plan with code changes
+
+**Quick examples for serverless:**
+- Chat: "How do I add a DynamoDB table to my SAM template?"
+- Chat: "Explain this Lambda error: Task timed out after 3 seconds"
+- Chat: "/dev Add error handling and logging to my Lambda function"
+<!--th-->
+## Amazon Q — AI Coding Assistant
+
+Amazon Q Developer เป็น AI assistant ฟรีสำหรับ VS Code ช่วยสร้างโค้ด debug และพัฒนา AWS
+
+**ติดตั้ง:**
+1. ติดตั้ง extension: ค้นหา "Amazon Q" ในแผง Extensions หรือรันคำสั่งด้านบน
+2. คลิกไอคอน Amazon Q ที่ sidebar
+3. ลงชื่อเข้าใช้ด้วย AWS Builder ID (ฟรี) ที่ [community.aws/builderid](https://community.aws/builderid) หรือใช้ IAM Identity Center
+
+**สิ่งที่ทำได้:**
+- **Chat** (`Ctrl+Shift+Q` / `Cmd+Shift+Q`) — ถามคำถามเกี่ยวกับโค้ด, AWS services หรือขอความช่วยเหลือเขียน SAM templates
+- **Inline suggestions** — Amazon Q แนะนำโค้ดขณะพิมพ์ กด `Tab` เพื่อยอมรับ
+- **Code transform** — อัปเกรดเวอร์ชัน Java หรือปรับปรุงโค้ดอัตโนมัติ
+- **/dev** — อธิบายฟีเจอร์ใน chat แล้ว Amazon Q จะสร้างแผนการพัฒนาพร้อมโค้ดให้
+
+**ตัวอย่างสำหรับ serverless:**
+- Chat: "How do I add a DynamoDB table to my SAM template?"
+- Chat: "Explain this Lambda error: Task timed out after 3 seconds"
+- Chat: "/dev Add error handling and logging to my Lambda function"
+<!--/-->
 
 <!--en-->
 ## Verify

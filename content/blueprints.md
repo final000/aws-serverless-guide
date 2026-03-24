@@ -14,9 +14,8 @@ Ready-to-use SAM template examples to kickstart your serverless projects. Each b
 
 | Blueprint | Runtime |
 |-----------|---------|
-| [Lambda Python](blueprint-python.html) | Python 3.12 |
-| [Lambda Node.js](blueprint-nodejs.html) | Node.js 22.x |
-| [Lambda Java](blueprint-java.html) | Java 21 |
+| [Backend Starter Kit](blueprint-backend-starter.html) | Python 3.12 + RDS + Cognito |
+| [Amplify Frontend](blueprint-amplify-frontend.html) | React + Amplify + Cognito |
 
 <!--en-->
 > **Tip:** Each blueprint follows AWS best practices including least-privilege IAM policies, structured logging, and X-Ray tracing.

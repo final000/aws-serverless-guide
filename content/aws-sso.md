@@ -7,7 +7,7 @@ AWS IAM Identity Center (formerly AWS SSO) lets you sign in to the CLI using you
 
 - AWS CLI v2 installed ([see previous section](aws-cli.html))
 - An AWS organization with IAM Identity Center enabled
-- Your SSO start URL and region from your administrator (e.g., `https://my-org.awsapps.com/start`)
+- Your SSO start URL and region from your administrator (e.g., `https://my-org.awsapps.com/start` or `https://ssoins-my-org.portal.ap-southeast-1.app.aws`)
 <!--th-->
 # AWS SSO สำหรับ CLI
 
@@ -17,7 +17,7 @@ AWS IAM Identity Center (เดิมชื่อ AWS SSO) ช่วยให้
 
 - ติดตั้ง AWS CLI v2 แล้ว ([ดูหัวข้อก่อนหน้า](aws-cli.html))
 - องค์กร AWS ที่เปิดใช้งาน IAM Identity Center
-- SSO start URL และ region จากผู้ดูแลระบบ (เช่น `https://my-org.awsapps.com/start`)
+- SSO start URL และ region จากผู้ดูแลระบบ (เช่น `https://my-org.awsapps.com/start` หรือ `https://ssoins-my-org.portal.ap-southeast-1.app.aws`)
 <!--/-->
 
 <!--en-->
@@ -37,12 +37,12 @@ aws configure sso
 <!--en-->
 You'll be prompted for:
 
-| Prompt | Example Value |
-|--------|---------------|
+| Prompt | Example Value | Workshop Value |
+|--------|---------------|---------------|
 | SSO session name | `my-org` |
-| SSO start URL | `https://my-org.awsapps.com/start` |
-| SSO region | `us-east-1` |
-| SSO registration scopes | `sso:account:access` (press Enter for default) |
+| SSO start URL | `https://my-org.awsapps.com/start` | `https://d-9667a65e00.awsapps.com/start`|
+| SSO region | `us-east-1` | `ap-southeast-1`
+| SSO registration scopes | `sso:account:access` (press Enter for default) | `sso:account:access` (press Enter for default)
 
 A browser window will open for you to authorize the CLI. After approval, you'll select an account and role:
 
@@ -56,12 +56,12 @@ A browser window will open for you to authorize the CLI. After approval, you'll 
 <!--th-->
 ระบบจะถามข้อมูลต่อไปนี้:
 
-| คำถาม | ตัวอย่างค่า |
-|-------|-----------|
+| คำถาม | ตัวอย่างค่า | Workshop Value |
+|--------|---------------|---------------|
 | SSO session name | `my-org` |
-| SSO start URL | `https://my-org.awsapps.com/start` |
-| SSO region | `us-east-1` |
-| SSO registration scopes | `sso:account:access` (กด Enter เพื่อใช้ค่าเริ่มต้น) |
+| SSO start URL | `https://my-org.awsapps.com/start` | `https://d-9667a65e00.awsapps.com/start`|
+| SSO region | `us-east-1` | `ap-southeast-1`
+| SSO registration scopes | `sso:account:access` (press Enter for default) | `sso:account:access` (press Enter for default)
 
 เบราว์เซอร์จะเปิดขึ้นเพื่อให้คุณอนุญาต CLI หลังจากอนุมัติแล้ว คุณจะเลือกบัญชีและ role:
 
